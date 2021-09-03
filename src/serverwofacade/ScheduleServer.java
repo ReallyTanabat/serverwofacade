@@ -11,40 +11,40 @@ package serverwofacade;
  * @author sarun
  */
 public class ScheduleServer {
-    public void startBooting(){
-	System.out.println("Starts booting...");
+    public String startBooting(){
+	return "Starts booting...";
     }
-    public void readSystemConfigFile(){
-        System.out.println("Reading system config files...");
+    public String readSystemConfigFile(){
+    return "Reading system config files...";
     }
-    public void init(){
-	System.out.println("Initializing...");
+    public String init(){
+	return "Initializing...";
     }
-    public void initializeContext(){
-	System.out.println("Initializing context...");
+    public String initializeContext(){
+	return "Initializing context...";
     }
-    public void initializeListeners(){
-	System.out.println("Initializing listeners...");
+    public String initializeListeners(){
+	return "Initializing listeners...";
     }
-    public void createSystemObjects(){
-        System.out.println("Creating system objects...");
+    public String createSystemObjects(){
+    return "Creating system objects...";
     }
-    public void releaseProcesses(){
-        System.out.println("Releasing processes...");
+    public String releaseProcesses(){
+    return "Releasing processes...";
     }
-    public void destory(){
-        System.out.println("Destorying...");
+    public String destory(){
+    return "Destorying...";
     }
-    public void destroySystemObjects(){
-	System.out.println("Destroying system objects...");
+    public String destroySystemObjects(){
+	return "Destroying system objects...";
     }
-    public void destoryListeners(){
-        System.out.println("Destroying listeners...");
+    public String destoryListeners(){
+    return "Destroying listeners...";
     }
-    public void destoryContext(){
-        System.out.println("Destroying context...");
+    public String destoryContext(){
+    return "Destroying context...";
     }
-    public void shutdown(){
-        System.out.println("Shutting down...");
+    public String shutdown(){
+    return "Shutting down...";
     }
 }
